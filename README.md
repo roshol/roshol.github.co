@@ -6,3 +6,5 @@ min hemsida
 [Read more](/read-more) 
 
 [Articles](/articles)
+
+[Purchase complete](/purchase-complete)
