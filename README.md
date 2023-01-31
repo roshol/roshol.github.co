@@ -7,4 +7,6 @@ min hemsida
 
 [Articles](/articles)
 
+[Thank you](/thank-you)
+
 [Purchase complete](/purchase-complete)
