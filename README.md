@@ -10,3 +10,5 @@ min hemsida
 [Thank you](/thank-you)
 
 [Purchase complete](/purchase-complete)
+
+[Subscribed](/subscribed)
