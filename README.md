@@ -13,8 +13,6 @@ min hemsida
 
 [Subscribed](/subscribed)
 
-<a href="https://emmhed690.github.io" class="sub-link" data-subvalue="50">Emma</a>
-
 <a href="/subscribed" class="sub-link" data-subvalue="50">Subscribe 50!</a>
 <br>
 <a href="/subscribed" class="sub-link" data-subvalue="250">Subscribe 250!</a>
