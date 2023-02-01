@@ -9,7 +9,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <script>
-
+  
 function sendInfoEvent(artikelnamn, lastid) {
     gtag('event', 'read_article', {
     "artikelnamn": artikelnamn,
@@ -24,11 +24,11 @@ function sendInfoEvent(artikelnamn, lastid) {
     if(readArticle1Button) {
 
         readArticle1Button.addEventListener("click", () => {
-        sendInfoEvent(lastid < 10)
+        sendInfoEvent("article1", 10)
          });
 
         document.getElementById("article2").addEventListener("click", () => {
-        sendInfoEvent(lastid > 15)
+        sendInfoEvent("article2" 15)
         });
     }
 
@@ -37,5 +37,4 @@ function sendInfoEvent(artikelnamn, lastid) {
 
 console.log("try me");
 
-    
 </script>
