@@ -6,37 +6,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WRGT8WL');</script>
 <!-- End Google Tag Manager -->
 
+
+
 <script>
-function sendReadEvent(title, numberOfCharacters) {
+
+function sendInfoEvent(artikelnamn, lastid) {
     gtag('event', 'read_article', {
-        "author": "Rosanna H",
-        "title": title,
-        "number_of_characters": numberOfCharacters,
+    "artikelnamn": artikelnamn,
+    "lastid": lastid,
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+ document.addEventListener("DOMContentLoaded", () => {
 
-    const readArticle1Button = document.getElementById("read-article-1");
+    const readArticle1Button = document.getElementById("article1");
 
-    if (readArticle1Button) {
-        // Skickar event vid klick på artikel 1
+    if(readArticle1Button) {
+
         readArticle1Button.addEventListener("click", () => {
-            sendReadEvent("Article 1", 50)
-        });
+        sendInfoEvent(lastid < 10)
+         });
 
-        // Skickar event vid klick på artikel 2
-        document.getElementById("read-article-2").addEventListener("click", () => {
-            sendReadEvent("Article 2", 100)
-        });
-
-        // Skickar event vid klick på artikel 3
-        document.getElementById("read-article-3").addEventListener("click", () => {
-            sendReadEvent("Article 3", 150)
+        document.getElementById("article2").addEventListener("click", () => {
+        sendInfoEvent(lastid > 15)
         });
     }
 
+
 });
-  
- console.log("2023-01-31 14.30")
+
+console.log("try me");
+
+    
 </script>
