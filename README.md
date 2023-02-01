@@ -13,7 +13,7 @@ min hemsida
 
 [Subscribed](/subscribed)
 
-[Emma](<a href="https://emmhed690.github.io/"</a>)
+<a href="https://emmhed690.github.io" class="sub-link" data-subvalue="50">Emma</a>
 
 <a href="/subscribed" class="sub-link" data-subvalue="50">Subscribe 50!</a>
 <br>
